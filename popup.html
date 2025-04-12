@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JSON to Underscore Case</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>JSON to Underscore Case</h1>
+    
+    <div class="input-section">
+      <h2>Input JSON</h2>
+      <textarea id="input-json" placeholder="Paste your JSON here..."></textarea>
+      <div class="button-row">
+        <button id="convert-btn">Convert</button>
+        <button id="paste-btn">Paste from Clipboard</button>
+      </div>
+    </div>
+    
+    <div class="output-section">
+      <h2>Output JSON</h2>
+      <textarea id="output-json" readonly></textarea>
+      <div class="button-row">
+        <button id="copy-btn">Copy to Clipboard</button>
+      </div>
+    </div>
+    
+    <div id="error-message" class="error hidden"></div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
